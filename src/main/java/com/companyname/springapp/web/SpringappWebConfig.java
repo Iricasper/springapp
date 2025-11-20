@@ -9,7 +9,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
-@ComponentScan
+@ComponentScan(basePackages = {"com.companyname.springapp"})
 @EnableWebMvc
 public class SpringappWebConfig {
 
